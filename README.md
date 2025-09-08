@@ -6,7 +6,7 @@ Programmstarts:
 node piglatin.js + Einen Beliebigen Satz eingeben
 
 2. 
-node steinScherePapier.js + "stein", "schere" oder "papier"
+node steinScherePapier.js + "stein", "schere" oder "papier" eingeben
 
 3. 
 node caesarCipher.js + Zahl eingeben (für das Shiften der Buchstaben zwecks einfacher Verschlüsselung)
