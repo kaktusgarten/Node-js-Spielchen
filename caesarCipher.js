@@ -46,7 +46,7 @@ if (text === undefined || shift === undefined) {
 console.log(`Ihre Eingabe: ${text}`);
 console.log(`Buchstaben verschieben um: ${shift}`);
 
-for (letter of text) {
+for (const letter of text) {
   verschlüsseln(letter, alphabet, shift);
 }
 
