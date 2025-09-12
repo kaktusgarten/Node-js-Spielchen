@@ -35,8 +35,13 @@ const alphabet = [
 let ausgabe = [];
 
 let eingaben = process.argv.slice(2);
-const text = eingaben[0];
+const text = eingaben[0].toLowerCase();
 const shift = eingaben[1];
+
+if (text === undefined || shift === undefined) {
+  console.log("Bitte einen Satz in Anführungstrichen eingeben und eine Zahl");
+  return;
+}
 
 console.log(`Ihre Eingabe: ${text}`);
 console.log(`Buchstaben verschieben um: ${shift}`);
